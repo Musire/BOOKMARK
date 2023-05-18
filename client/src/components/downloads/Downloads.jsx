@@ -6,11 +6,11 @@ const Downloads = () => {
     const cards = cardArray.map((item, index) => <InfoCard key={item} card={index} />)
 
     return ( 
-        <section className="section-container bg-white pb-10 md:pb-28">
-            <div className="block-container md:w-3/5 flex flex-col items-center gap-y-10">
-                <article className="centered-col gap-y-4 text-darkBlue text-center">
-                    <h2 className="text-3xl font-bold">{Text.title}</h2>
-                    <h4 className="text-grayBlue/70 text-xl">{Text.content}</h4>
+        <section className="pb-10 bg-white section-container md:pb-28">
+            <div className="flex flex-col items-center block-container md:w-3/5 gap-y-10">
+                <article className="text-center centered-col gap-y-4 text-darkBlue">
+                    <h2 className="text-3xl font-bold ">{Text.title}</h2>
+                    <h4 className="text-xl text-grayBlue/70 md:w-[65%]">{Text.content}</h4>
                 </article>
                 <div className="w-full centered-col gap-y-16 md:flex-row md:gap-x-8">{ cards }</div>
             </div>

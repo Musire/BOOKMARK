@@ -7,7 +7,7 @@ const Downloads = () => {
 
     return ( 
         <section className="pb-10 bg-white section-container md:pb-28">
-            <div className="flex flex-col items-center block-container md:w-3/5 gap-y-10">
+            <div className="flex flex-col items-center block-container md:w-4/5 gap-y-10">
                 <article className="text-center centered-col gap-y-4 text-darkBlue">
                     <h2 className="text-3xl font-bold ">{Text.title}</h2>
                     <h4 className="text-xl text-grayBlue/70 md:w-[65%]">{Text.content}</h4>

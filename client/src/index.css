@@ -127,4 +127,10 @@ html {
     @apply button bg-white text-darkBlue shadow-md shadow-silver
   }
 
+  /*Feature Section*/
+  .image-sizing {
+    @apply xs:bg-[length:500px_200px] md:bg-[length:600px_250px] 
+  }
+
+
 }

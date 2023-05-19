@@ -8,7 +8,8 @@ export default {
     extend: {
       screens: {
         'xs': '319px',
-        'mobile': '375px',
+        'mobile': '385px',
+        'mini': '540px',
         'desktop': '1440px'
       },
       colors: {
@@ -59,6 +60,8 @@ export default {
       },
       backgroundImage: {
         'dots': "url('./assets/bg-dots.svg')",
+        'blue-right' : "url('./assets/background-right.png')",
+        'blue-left' : "url('./assets/background-left.png')"
       },
     },
   },

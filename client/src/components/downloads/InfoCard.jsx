@@ -18,7 +18,7 @@ const distance = {
 
 const InfoCard = ({ card }) => {
     return ( 
-        <div className={`xs:p-8 md:px-4 md:py-8 spaced-col gap-y-4 shadow-xl bg-dots bg-no-repeat bg-[right_0_bottom_7.5rem] bg-contain h-[28rem] xs:w-[90%] md:w-96 ${distance[card]}`} >
+        <div className={`xs:p-8 md:px-4 md:py-8 spaced-col gap-y-4 shadow-xl bg-dots bg-no-repeat bg-[right_0_bottom_7.5rem] bg-contain h-[28rem] xs:w-[90%] max-w-sm md:w-128 ${distance[card]}`} >
             <img src={images[card]} alt="card-logo" className="w-32" />
             <article className="pb-8 text-center centered-col gap-y-2">
                 <h3 className="text-3xl font-medium md:text-2xl text-darkBlue">{Text[card].title}</h3>

@@ -9,9 +9,9 @@ const Hero = () => {
                     <img src={BannerImage} alt="" className="" />
                 </div>
                 <article className="centered-col text-darkBlue xs:text-center gap-y-8 lg:text-left lg:items-start lg:w-2/5">
-                    <h2 className="font-medium xs:pt-6 lg:pt-0 xs:text-4xl lg:text-6xl">{Text.title}</h2>
-                    <h4 className="text-grayBlue/70 lg:text-xl w-[85%]">{Text.content}</h4>
-                    <div className="font-medium text-white centered gap-x-4">
+                    <h2 className="font-medium xs:pt-6 lg:pt-0 title-size">{Text.title}</h2>
+                    <h4 className="text-grayBlue/70 content-size w-[85%]">{Text.content}</h4>
+                    <div className="font-medium text-white centered xs:gap-x-2 mobile:gap-x-3 mini:gap-x-4">
                         <button className="blue-button">{Text.CTA1}</button>
                         <button className="white-button">{Text.CTA2}</button>
                     </div>

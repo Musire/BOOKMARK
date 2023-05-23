@@ -2,7 +2,7 @@ import { Navbar, Hero, Features, Downloads, Frequent, Newsletter, Footer } from 
 
 const HomePage = () => {
     return ( 
-        <section className="centered-col w-screen min-h-screen h-auto">
+        <section className="w-screen h-auto min-h-screen centered-col">
             <Navbar />
             <Hero />
             <Features />

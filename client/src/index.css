@@ -109,6 +109,15 @@ html {
     @apply bg-center bg-no-repeat
   }
 
+  /*Site Components*/
+  .content-size {
+    @apply xs:text-base sm:text-lg md:text-xl
+  }
+
+  .title-size {
+    @apply xs:text-xl sm:text-2xl md:text-3xl lg:text-4xl
+  }
+
   /*Navbar Section*/ 
   .sidebar-item {
     @apply text-2xl font-light uppercase border-t-2 border-silver/30 w-full centered text-center h-20 tracking-comfy text-silver
@@ -116,7 +125,7 @@ html {
 
   /*Hero Section*/
   .button {
-    @apply px-8 py-4 rounded-xl
+    @apply xs:px-3 xs:py-2 xs:rounded-lg mini:px-8 mini:py-4 mini:rounded-xl
   }
 
   .blue-button {
@@ -130,6 +139,32 @@ html {
   /*Feature Section*/
   .image-sizing {
     @apply xs:bg-[length:500px_200px] md:bg-[length:600px_250px] 
+  }
+
+  .tab-img {
+    @apply xs:bg-[length:100%_60%] 
+  }
+
+  .img-holder {
+    @apply centered md:justify-end h-full xs:bg-[left_-20px_bottom_0] bg-img tab-img md:w-1/2 bg-blue-left 
+  }
+
+  /*Accordian Component*/
+  .accordian-title {
+    @apply xs:text-base md:text-lg
+  }
+
+  /*Infocard Component*/
+  .infocard-title {
+    @apply xs:text-xl md:text-2xl lg:text-3xl
+  }
+
+  .infocard-content {
+    @apply md:text-base lg:text-xl
+  }
+
+  .infocard-button {
+    @apply xs:text-sm md:text-base lg:text-lg
   }
 
 

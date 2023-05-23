@@ -1,3 +1,4 @@
 import Newsletter from "./Newsletter"
+import Form from "./Form"
 
-export { Newsletter }
+export { Newsletter, Form }

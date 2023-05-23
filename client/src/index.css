@@ -129,11 +129,11 @@ html {
   }
 
   .blue-button {
-    @apply button bg-softBlue
+    @apply button bg-softBlue easy-transition hover:bg-white border-2 border-softBlue hover:text-softBlue
   }
 
   .white-button {
-    @apply button bg-white text-darkBlue shadow-md shadow-silver
+    @apply button bg-white text-darkBlue shadow-md shadow-silver border-2 border-transparent easy-transition hover:border-grayBlue hover:text-grayBlue
   }
 
   /*Feature Section*/
@@ -164,7 +164,7 @@ html {
   }
 
   .infocard-button {
-    @apply xs:text-sm md:text-base lg:text-lg
+    @apply xs:text-sm md:text-base lg:text-lg w-full py-4 font-medium text-white rounded-lg bg-softBlue place-self-end easy-transition border-2 border-softBlue hover:text-softBlue hover:bg-white
   }
 
 

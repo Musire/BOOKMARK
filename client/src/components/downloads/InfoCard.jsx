@@ -24,7 +24,7 @@ const InfoCard = ({ card }) => {
                 <h3 className="font-medium infocard-title text-darkBlue">{Text[card].title}</h3>
                 <h5 className="font-medium infocard-content text-grayBlue/70">{Text[card].content}</h5>
             </article>
-            <button className="w-full py-4 font-medium text-white rounded-lg bg-softBlue place-self-end infocard-button">{Text.CTA}</button>
+            <button className=" infocard-button">{Text.CTA}</button>
         </div>
      );
 }
